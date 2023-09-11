@@ -1,0 +1,12 @@
+spring:
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/Sunilsingh7838/configuration_properties.git
+          clone-on-start: true
+
+management:
+  security:
+   enabled: false
+   
